@@ -1,6 +1,7 @@
 **Near-optimal planning using approximate dynamic programming to enhance post-hazard community resilience management**
 
 **ABSTRACT**
+
 The lack of a comprehensive decision-making approach at the community level poses significant challenges, particularly in the context of recovery management following disasters. This research introduces a sequential discrete optimization approach, providing a robust decision-making framework to address recovery management in Energy Power Networks (EPN). We present a mathematical model that incorporates approximate dynamic programming alongside heuristic strategies to determine effective recovery actions while managing large-scale optimization problems under various uncertainties.
 
 To demonstrate the applicability of our proposed framework, we developed a simulation model using Python, employing the NetworkX library for graph-based representations of the EPN. The simulation features a DamagedNode class, encapsulating vital attributes such as repair time, importance, and the population served, along with an EPNNetwork class that simulates stochastic damage propagation and recovery processes. The core of the methodology employs a rollout algorithm, which iteratively prioritizes the repair of damaged nodes based on their importance, available resources, and probabilistic repair outcomes. 
